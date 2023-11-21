@@ -1,86 +1,13 @@
-# Task Management Application
-Task Management is a full-stack application that helps you organize your responsibilities more easily, providing a user-friendly interface. The application was built using the MERN stack (MongoDB, Express.js, React.js, Node.js), as well as TailwindCSS and Redux Toolkit. 
+**Burn Down Chart Generator**
 
-# How To Run
-- Git clone repository
-- Create your own .env file that should contain:
-  - PORT = <YOUR_PORT>
-  - MONGO_URI = <YOUR_MONGO_URI>
-  - JWT_SECRET = <YOUR_JWT_SECRET>
-  
-- Run these commands in terminal/shell:
-  -  <b>npm install</b> in backend folder
-  -  <b>npm install</b> in frontend folder
-  -  <b>npm run dev</b> at the root of the project 
+Project Overview: Burn Down Chart Generator is a comprehensive project management application developed using the MERN (MongoDB, Express.js, React, Node.js) stack. The standout feature of this application is the integrated burn down chart generator, leveraging Chart.js and the react-chartjs-2 library. The app is designed to provide a seamless project management experience with a user-friendly interface and responsive design.
 
-# Project Architecture
-
-### Root
-```   
-└───backend
-└───frontend
-└───node_modules
-│   package-lock.json 
-│   package.json 
-│   README.md
-```
-
-### Backend Folder
-```
-│   server.js    
-└───config
-    │   db.js
-└───controllers
-    │   taskController.js
-    │   userController.js
-└───middleware
-    │   authMiddleware.js
-    │   errorMiddleware.js
-└───models
-    │   taskModel.js
-    │   userModel.js
-└───routes
-    │   taskRoutes.js
-    │   userRoutes.js
-```
-
-### Frontend Folder
-```   
-└───public
-└───src
-│   .gitignore 
-│   package-lock.json 
-│   package.json
-│   postcss.config.js
-│   tailwind.config.js
-└───node_modules
-```
-
-# Application Review
-
-### Login Page
-![Login](https://user-images.githubusercontent.com/84568841/156879302-a1f3c85c-005b-4af5-907d-33533eb88a3d.png)
+**Key Features:**
 
 
-### Registration Page
-![Registration](https://user-images.githubusercontent.com/84568841/156879304-20742b5a-1d56-4898-9c42-3444709f8f58.png)
+-Utilizes Chart.js and react-chartjs-2 to dynamically generate burn down charts for effective project tracking. 
+-MERN Stack: Built with MongoDB for the database, Express.js for the backend, React for the frontend, and Node.js as the runtime environment. 
+-Fully Responsive: The application is crafted to ensure a smooth and consistent user experience across various devices and screen sizes. Getting Started:
 
-
-### Create Task
-![Create Task](https://user-images.githubusercontent.com/84568841/156879305-3620b7f8-ed3c-4a30-b742-95c66fa5604c.png)
-
-
-### My Tasks
-![My Tasks](https://user-images.githubusercontent.com/84568841/157099639-7ec0b2d5-0f10-47e5-a161-a14c19972eb7.png)
-
-
-### Empty Task List
-![Empty Task List](https://user-images.githubusercontent.com/84568841/157098706-2b6a5de8-9813-4a7d-a598-5cb334a34fc6.png)
-
-
-### Single Task
-
-![Single Task](https://user-images.githubusercontent.com/84568841/156879313-df608b9d-f23a-4126-bedf-73b7a59a0daa.png)
-
-
-
+Set the MONGO_URI and JWT_SECRET environment variables in your project's configuration file. 
+Run ```npm run dev``` in the root directory of the project to start the application.
