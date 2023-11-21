@@ -11,5 +11,5 @@ Project Overview: Burn Down Chart Generator is a comprehensive project managemen
 
 **Instructions to run**
 - Run ```npm install``` in both frontend and backend parts
--Set the MONGO_URI and JWT_SECRET environment variables in your project's configuration file. 
--Run ```npm run dev``` in the root directory of the project to start the application.
+- Set the MONGO_URI and JWT_SECRET environment variables in your project's configuration file. 
+- Run ```npm run dev``` in the root directory of the project to start the application.
